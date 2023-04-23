@@ -9,7 +9,7 @@ body {
 /* component */
 body main .component {
     overflow: hidden;
-    border-radius: 2rem;
+    border-radius: 1rem;
     display: flex;
     flex-direction: column;
 
@@ -25,15 +25,6 @@ body main .component .component-wrapper {
     padding: 3rem;
 }
 
-/* Detalhes */
-
-/* button */
-body main .component .component-wrapper .button-wrapper button:hover {
-    cursor: pointer;
-    background: #8f8f8f;
-    padding: 2rem;
-}
-
 /* CONFIGURAÇÃO ESPECIFICA DE CADA COMPONENT  */
 
 /* SECOND WRAPPER */
@@ -41,10 +32,14 @@ body main .component .component-wrapper.suvs {
     background: hsl(184, 100%, 22%);
 }
 
+
 body main .component .component-wrapper.suvs img {
     content: url(../images/icon-suvs.svg);
 }
 
+body main .component .component-wrapper.suvs .button-wrapper button {
+    color: hsl(184, 100%, 22%);
+}
 
 /* THIRD WRAPPER */
 body main .component .component-wrapper.luxury {
@@ -53,4 +48,18 @@ body main .component .component-wrapper.luxury {
 
 body main .component .component-wrapper.luxury img {
     content: url(../images/icon-luxury.svg);
+}
+
+body main .component .component-wrapper.luxury .button-wrapper button {
+    color: hsl(179, 100%, 13%);
+}
+
+
+/* DETALHES */
+
+/* button */
+body main .component .component-wrapper .button-wrapper button:hover {
+    cursor: pointer;
+    background: #8f8f8f;
+    padding: 1.2rem;
 }
