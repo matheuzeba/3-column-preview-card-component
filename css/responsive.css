@@ -16,4 +16,7 @@
     body main .component .component-wrapper .button-wrapper {
         margin: 13rem 0 0;
     }
+    body main .component .component-wrapper .button-wrapper button{
+        width: 15rem;
+    }
 }

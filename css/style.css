@@ -9,6 +9,7 @@
 body {
     padding: 7rem 2rem;
     min-height: 100%;
+    background:  hsl(0, 0%, 95%);
 }
 
 /* CONFIGURAÇÃO GERAL DE COMPONENT */
@@ -48,6 +49,7 @@ body main .component .component-wrapper h1 {
 body main .component .component-wrapper p {
     font-family: 'Lexend Deca', sans-serif;
     font-size: 1.5rem;
+    color: hsla(0, 0%, 100%, 0.75);
 }
 
 /* button */
@@ -58,6 +60,7 @@ body main .component .component-wrapper .button-wrapper button {
     border-radius: 2rem;
     padding: 1.5rem;
     transition: 0.5s;
+    background: hsl(0, 0%, 95%);
 }
 
 body main .component .component-wrapper .button-wrapper button:hover {
