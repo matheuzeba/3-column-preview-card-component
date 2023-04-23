@@ -1,3 +1,9 @@
+/* 
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+*/
+
+
 /* Centralizand pagina */
 
 body {
@@ -17,11 +23,21 @@ body main .component .component-wrapper {
     display: flex;
     flex-direction: column;
     
-    gap: 2rem;
+    gap: 2.5rem;
 }
 
 /* img */
 body main .component .component-wrapper img {
     width: 100%;
     max-width: 5rem;
+}
+
+body main .component .component-wrapper h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 3rem;
+}
+
+body main .component .component-wrapper p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.5rem;
 }
