@@ -57,6 +57,13 @@ body main .component .component-wrapper .button-wrapper button {
 
     border-radius: 2rem;
     padding: 1.5rem;
+    transition: 0.5s;
+}
+
+body main .component .component-wrapper .button-wrapper button:hover {
+    cursor: pointer;
+    background: #8f8f8f;
+    padding: 2rem;
 }
 
 /* CONFIGURAÇÃO ESPECIFICA DE CADA COMPONENT  */
@@ -79,7 +86,3 @@ body main .component .component-wrapper.luxury {
 body main .component .component-wrapper.luxury img {
     content: url(../images/icon-luxury.svg);
 }
-
-
-
-
