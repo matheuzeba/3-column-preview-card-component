@@ -8,26 +8,27 @@
 
 body {
     padding: 7rem 2rem;
-    
     min-height: 100%;
 }
 
+/* CONFIGURAÇÃO GERAL DE COMPONENT */
+
 /* component */
 body main .component {
-    background: #5c5757;
-    padding: 3rem;
-
+    border-radius: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 8rem;
+
+    background: hsl(31, 77%, 52%);
 }
 
 /* Wrapper do component */
 body main .component .component-wrapper {
     display: flex;
     flex-direction: column;
-    
     gap: 3.5rem;
+
+    padding: 3rem;
 }
 
 /* img */
@@ -54,5 +55,30 @@ body main .component .component-wrapper .button-wrapper button {
     font-size: 1.8rem;
 
     border-radius: 2rem;
-    padding: 1rem;
+    padding: 1.5rem;
 }
+
+/* CONFIGURAÇÃO ESPECIFICA DE CADA COMPONENT  */
+
+/* SECOND WRAPPER */
+body main .component .component-wrapper.suvs {
+    background: hsl(184, 100%, 22%);
+}
+
+body main .component .component-wrapper.suvs img {
+    content: url(../images/icon-suvs.svg);
+}
+
+
+/* THIRD WRAPPER */
+body main .component .component-wrapper.luxury {
+    background: hsl(179, 100%, 13%);
+}
+
+body main .component .component-wrapper.luxury img {
+    content: url(../images/icon-luxury.svg);
+}
+
+
+
+
