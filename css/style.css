@@ -19,3 +19,9 @@ body main .component .component-wrapper {
     
     gap: 2rem;
 }
+
+/* img */
+body main .component .component-wrapper img {
+    width: 100%;
+    max-width: 5rem;
+}
