@@ -1,7 +1,21 @@
+/* Centralizand pagina */
+
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 7rem 2rem;
+    
     min-height: 100%;
 }
 
+/* component */
+body main .component {
+    background: #5c5757;
+    padding: 3rem;
+}
+
+/* Wrapper do component */
+body main .component .component-wrapper {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 2rem;
+}
