@@ -1,0 +1,19 @@
+@media (min-width: 700px) {
+    body {
+        display: flex;
+        align-items: center;
+    }
+    body main .component{
+        flex-direction: row;
+        height: 50rem;
+        
+    }
+    
+    body main .component .component-wrapper {
+        justify-content: space-evenly;
+    }
+
+    body main .component .component-wrapper .button-wrapper {
+        margin: 13rem 0 0;
+    }
+}

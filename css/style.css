@@ -15,6 +15,7 @@ body {
 
 /* component */
 body main .component {
+    overflow: hidden;
     border-radius: 2rem;
     display: flex;
     flex-direction: column;
