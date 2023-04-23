@@ -16,6 +16,10 @@ body {
 body main .component {
     background: #5c5757;
     padding: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
 }
 
 /* Wrapper do component */
