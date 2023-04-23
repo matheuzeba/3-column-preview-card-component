@@ -23,7 +23,7 @@ body main .component .component-wrapper {
     display: flex;
     flex-direction: column;
     
-    gap: 2.5rem;
+    gap: 3.5rem;
 }
 
 /* img */
@@ -32,12 +32,23 @@ body main .component .component-wrapper img {
     max-width: 5rem;
 }
 
+/* h1 */
 body main .component .component-wrapper h1 {
     font-family: 'Big Shoulders Display', cursive;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
+/* p */
 body main .component .component-wrapper p {
     font-family: 'Lexend Deca', sans-serif;
     font-size: 1.5rem;
+}
+
+/* button */
+body main .component .component-wrapper .button-wrapper button {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.8rem;
+
+    border-radius: 2rem;
+    padding: 1rem;
 }
