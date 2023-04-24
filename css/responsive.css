@@ -2,11 +2,12 @@
     body {
         display: flex;
         align-items: center;
+        justify-content: center;
     }
     body main .component{
         flex-direction: row;
         height: 50rem;
-        
+        max-width: 80rem
     }
     
     body main .component .component-wrapper {
